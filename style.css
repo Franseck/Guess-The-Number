@@ -123,7 +123,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .last h6 {
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 0.3rem;
   color: red;
   font-family: "Nothing You Could Do", cursive;
 }
