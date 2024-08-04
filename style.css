@@ -1,27 +1,25 @@
-*  { margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    height: 100vh;
-    width: 100%;
-display: grid;
-place-items: center;
- letter-spacing: 4px;
- line-height: 1;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  letter-spacing: 4px;
+  line-height: 1;
 
-   position: relative;
- }
+  position: relative;
+}
 
-canvas{
-
+canvas {
   width: 100%;
   height: 100vh;
-
 }
-button{
+button {
   display: inline-block;
   border: none;
   background-color: transparent;
@@ -34,66 +32,67 @@ input {
   all: unset;
 }
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-     flex-wrap: wrap;
-background-color: rgba(8, 65, 39, 0.168);
-border: 1px solid teal;
-box-shadow: 0 4px 20px teal;
-border-radius: 5rem;
-    gap: 1rem;
-    color: white;
-    padding: 2rem;
-    position:absolute;
-    top: 0;
-    margin-top: 5%;
-    backdrop-filter: blur(2px);
-    font-family: "Orbitron", sans-serif;
-    height: 35rem;
-  }
-  
-.title {
-  margin-bottom: 1.2rem;
-    color:rgba(187, 139, 7, 0.671);
-    font-size: 2rem;
-  }
-  .guess {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
-  .enter-number-block {
-    margin-bottom: 1.2rem;
-    padding-left: 2rem;
-  }
-.enter-number-text {
-  margin-top: 3rem;
-margin-bottom: 3rem;
-font-size: 1rem;
-letter-spacing: 2px;
-color: darkcyan;
-}
-.enter-number-input {
-margin-left:2rem;
-padding-left: 1rem;
-width: 3rem;
-height: 3rem;
-background-color: rgba(187, 139, 7, 0.671);
-color: darkcyan;
-border-radius: 50%;
-box-shadow:  teal 0px 3px 3px ; 
-font-size: 1rem;
-font-family: "Figtree", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgba(8, 65, 39, 0.168);
+  border: 1px solid teal;
+  box-shadow: 0 4px 20px teal;
+  border-radius: 5rem;
+  gap: 1rem;
+  color: white;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  position: absolute;
+top: 0;
+  margin-top: 5%;
+  backdrop-filter: blur(2px);
+  font-family: "Orbitron", sans-serif;
+  height: 35rem;
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    margin: 0; 
-    
+.title {
+  margin-bottom: 1.2rem;
+  color: rgba(187, 139, 7, 0.671);
+  font-size: 2rem;
+}
+.guess {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.enter-number-block {
+  margin-bottom: 1.2rem;
+  padding-left: 2rem;
+}
+.enter-number-text {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  color: darkcyan;
+}
+.enter-number-input {
+  margin-left: 2rem;
+  padding-left: 1rem;
+  width: 3rem;
+  height: 3rem;
+  background-color: rgba(187, 139, 7, 0.671);
+  color: darkcyan;
+  border-radius: 50%;
+  box-shadow: teal 0px 3px 3px;
+  font-size: 1rem;
+  font-family: "Figtree", sans-serif;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
 }
 
 .btn {
@@ -104,10 +103,10 @@ input[type=number]::-webkit-outer-spin-button {
   border-radius: 3rem;
   font-size: 1.2rem;
   margin-left: 0.5rem;
-  transition:  all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .btn:hover {
-  transform :scaleX(1.12);
+  transform: scaleX(1.12);
 }
 .message-block {
   margin-bottom: 2.2rem;
@@ -126,4 +125,10 @@ input[type=number]::-webkit-outer-spin-button {
   margin-top: 0.5rem;
   color: red;
   font-family: "Nothing You Could Do", cursive;
+}
+@media only screen and (max-width: 474) {
+  .last {
+   font-size: 5px;
+
+  }
 }
