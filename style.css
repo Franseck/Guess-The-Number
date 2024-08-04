@@ -11,7 +11,7 @@ display: grid;
 place-items: center;
  letter-spacing: 4px;
  line-height: 1;
-   overflow: hidden;
+
    position: relative;
  }
 
@@ -120,3 +120,4 @@ input[type=number]::-webkit-outer-spin-button {
   font-size: 1.2rem;
   color: rgb(178, 178, 161);
 }
+
