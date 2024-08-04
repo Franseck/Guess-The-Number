@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Exo:ital,wght@0,100..900;1,100..900&family=Indie+Flower&family=Orbitron:wght@400..900&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Exo:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Indie+Flower&family=Orbitron:wght@400..900&family=VT323&display=swap" rel="stylesheet">
+    <title>Guess a Number</title>
+  </head>
+  <body>
+    <div class="mat">
+      <canvas id="Matrix"></canvas>
+    </div>
+    <div class="container">
+      <h1 class="title">Guess The Number</h1>
+      <div class="enter-number-block">
+        <p class="enter-number-text">
+          Guess a number between 1 to 20
+        </p>
+        <input type="number" class="enter-number-input" />
+        <button class="enter-number-button btn">
+          Click to Guess
+        </button>
+      </div>
+      <div class="message-block">
+        <p class="message-preguess text"></p>
+        <p class="message-text">Enter a Number</p>
+        <p class="message-attempt text"></p>
+      </div>
+      <button class="game-start-button btn">
+        Play Again
+      </button>
+    </div>
+
+<script src="data.js"></script>
+<script src="matrix.js"></script>
+  </body>
+</html>
