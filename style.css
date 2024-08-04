@@ -121,9 +121,9 @@ input[type=number]::-webkit-outer-spin-button {
   color: rgb(178, 178, 161);
 }
 
-.last h6 {
+.last {
   text-align: center;
-  margin-top: 0.3rem;
+  margin-top: 0.5rem;
   color: red;
   font-family: "Nothing You Could Do", cursive;
 }
